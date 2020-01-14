@@ -1,0 +1,17 @@
+@mixin mq-400 {
+  @media (min-width: 400px) {
+    @content;
+  }
+}
+
+@mixin mq-600 {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin mq-900 {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
